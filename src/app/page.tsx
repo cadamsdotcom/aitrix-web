@@ -31,7 +31,7 @@ export default function Home() {
       <div className="mx-auto flex flex-nowrap items-center relative">
         <div className="glass rounded-lg shadow-lg p-6 pr-8 md:pr-12 space-y-4">
           <h2 className="text-3xl font-semibold">
-            Hi. I'm <Link href="https://linkedin.com/in/cadamsdotcom/" target="_blank" rel="noopener noreferrer" className="text-blue-800 items-center">Chris</Link>.
+            Hi. I&apos;m <Link href="https://linkedin.com/in/cadamsdotcom/" target="_blank" rel="noopener noreferrer" className="text-blue-800 items-center">Chris</Link>.
           </h2>
           <p>
             I am motivated by the power of technology to improve lives.
@@ -43,13 +43,13 @@ export default function Home() {
             AI is on the rise, and has potential to improve businesses of all sizes and kinds.
           </p>
           <p>
-            But there's a knowledge gap: this tech can do more than you know!
+            But there&apos;s a knowledge gap: this tech can do more than you know!
           </p>
           <p>
             We help your team <i>do more</i>. That means your business can <i>make more money</i>.
           </p>
           <p>
-            We have a unique philosophy: your people are experts in how your business runs. We don't replace them - we give them <i>superpowers</i>.
+            We have a unique philosophy: your people are experts in how your business runs. We don&apos;t replace them - we give them <i>superpowers</i>.
           </p>
           <p>
             AI Trix Consulting is my vehicle to help you get the most out of AI. Read on to learn more!
@@ -95,19 +95,19 @@ export default function Home() {
           </li>
           <li className="flex items-start gap-4 hover:bg-white/10 p-3 rounded-lg transition-all">
             <FaUndo className="text-gray-500 mt-1 flex-shrink-0" />
-            <span>Have a plan in case it doesn't work. Be able to go back to how things were.</span>
+            <span>Have a plan in case it doesn&apos;t work. Be able to go back to how things were.</span>
           </li>
           <li className="flex items-start gap-4 hover:bg-white/10 p-3 rounded-lg transition-all">
             <FaTools className="text-purple-500 mt-1 flex-shrink-0" />
-            <span>Not a "transformation": add a bit at a time, keep shaping it until it starts to work well, do not replace anything in any hurry. This applies to processes, tools - everything.</span>
+            <span>Not a &quot;transformation&quot;: add a bit at a time, keep shaping it until it starts to work well, do not replace anything in any hurry. This applies to processes, tools - everything.</span>
           </li>
           <li className="flex items-start gap-4 hover:bg-white/10 p-3 rounded-lg transition-all">
             <FaUserPlus className="text-orange-500 mt-1 flex-shrink-0" />
-            <span>Aumgent people, don't replace them. Replace job roles, not people. We help your business and team understand AI and integrate it into your work.</span>
+            <span>Augment people, don&apos;t replace them. Replace job roles, not people. We help your business and team understand AI and integrate it into your work.</span>
           </li>
           <li className="flex items-start gap-4 hover:bg-white/10 p-3 rounded-lg transition-all">
             <FaCheckCircle className="text-teal-500 mt-1 flex-shrink-0" />
-            <span>Use existing tools. We don't believe in requiring you to install new tools.</span>
+            <span>Use existing tools. We don&apos;t believe in requiring you to install new tools.</span>
           </li>
           <li className="flex items-start gap-4 hover:bg-white/10 p-3 rounded-lg transition-all">
             <FaClipboardCheck className="text-red-500 mt-1 flex-shrink-0" />
@@ -119,7 +119,7 @@ export default function Home() {
           </li>
           <li className="flex items-start gap-4 hover:bg-white/10 p-3 rounded-lg transition-all">
             <FaTasks className="text-pink-500 mt-1 flex-shrink-0" />
-            <span>Scope. Defined projects with clear impact on a function, process, or team/individual's work.</span>
+            <span>Scope. Defined projects with clear impact on a function, process, or team/individual&apos;s work.</span>
           </li>
         </ul>
       </div>
