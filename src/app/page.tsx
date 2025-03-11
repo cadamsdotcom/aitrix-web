@@ -31,7 +31,7 @@ export default function Home() {
       <div className="mx-auto flex flex-nowrap items-center relative">
         <div className="glass rounded-lg shadow-lg p-6 pr-8 md:pr-12 space-y-4">
           <h2 className="text-3xl font-semibold">
-            Hi. I&apos;m <Link href="https://linkedin.com/in/cadamsdotcom/" target="_blank" rel="noopener noreferrer" className="text-blue-800 items-center">Chris</Link>.
+            Hi. I&apos;m <Link href="https://linkedin.com/in/cadamsdotcom/" target="_blank" rel="noopener noreferrer" className="underline items-center">Chris</Link>.
           </h2>
           <p>
             I am motivated by the power of technology to improve lives.
