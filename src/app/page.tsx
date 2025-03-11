@@ -60,19 +60,22 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-center gap-4">
-        <Link
-          href="/more-info"
-          className="bg-blue-600 text-white font-bold py-3 min-w-[180px] md:min-w-[200px] rounded-lg shadow-lg hover:bg-blue-700 transition duration-300 text-center"
-        >
-          Read More
-        </Link>
-        <Link
-          href="/chat"
-          className="bg-green-600 text-white font-bold py-3 min-w-[180px] md:min-w-[200px] rounded-lg shadow-lg hover:bg-green-700 transition duration-300 text-center"
-        >
-          Chat with Us
-        </Link>
+      <div className="flex flex-col items-center gap-4">
+        <h3 className="text-2xl font-semibold mb-2">Ready to learn some AI Trix?</h3>
+        <div className="flex justify-center gap-4">
+          <Link
+            href="/more-info"
+            className="bg-blue-600 text-white font-bold py-3 min-w-[180px] md:min-w-[200px] rounded-lg shadow-lg hover:bg-blue-700 transition duration-300 text-center"
+          >
+            Read More
+          </Link>
+          <Link
+            href="/chat"
+            className="bg-green-600 text-white font-bold py-3 min-w-[180px] md:min-w-[200px] rounded-lg shadow-lg hover:bg-green-700 transition duration-300 text-center"
+          >
+            Chat with Us
+          </Link>
+        </div>
       </div>
 
       <div className="glass rounded-lg shadow-lg p-8 space-y-6">
@@ -122,6 +125,24 @@ export default function Home() {
             <span>Scope. Defined projects with clear impact on a function, process, or team/individual&apos;s work.</span>
           </li>
         </ul>
+      </div>
+
+      <div className="flex flex-col items-center gap-4">
+        <h3 className="text-2xl font-semibold mb-2">Ready to learn some AI Trix?</h3>
+        <div className="flex justify-center gap-4">
+          <Link
+            href="/more-info"
+            className="bg-blue-600 text-white font-bold py-3 min-w-[180px] md:min-w-[200px] rounded-lg shadow-lg hover:bg-blue-700 transition duration-300 text-center"
+          >
+            Read More
+          </Link>
+          <Link
+            href="/chat"
+            className="bg-green-600 text-white font-bold py-3 min-w-[180px] md:min-w-[200px] rounded-lg shadow-lg hover:bg-green-700 transition duration-300 text-center"
+          >
+            Chat with Us
+          </Link>
+        </div>
       </div>
     </div>
   );
