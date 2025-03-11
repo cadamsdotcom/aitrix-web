@@ -8,7 +8,7 @@ interface OfferingProps {
 
 const OfferingCard: React.FC<OfferingProps> = ({ title, description, features }) => (
     <div className="border rounded-lg p-6 shadow-lg">
-        <h3 className="text-2xl font-semibold mb-4">{title}</h3>
+        <h2 className="text-2xl font-semibold mb-4">{title}</h2>
         <p className="mb-4">{description}</p>
         <ul className="list-disc list-inside">
             {features.map((feature, index) => (
@@ -57,7 +57,9 @@ export default function OfferingsPage() {
             <h1 className="text-4xl font-bold mb-8">Our Offerings</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {offerings.map((offering, index) => (
-                    <OfferingCard key={index} {...offering} />
+                    <div key={index} className="glass rounded-lg p-6 shadow-lg">
+                        <OfferingCard {...offering} />
+                    </div>
                 ))}
             </div>
         </main>
