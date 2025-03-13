@@ -3,6 +3,6 @@ export const navigation = [
     { name: 'About', href: '/about' },
     { name: 'Offerings', href: '/offerings' },
     { name: 'Work', href: '/work' },
-    { name: 'Blog', href: '/blog' },
+    { name: 'Blog', href: 'https://aitrixco.substack.com' },
     { name: 'Contact', href: '/contact' },
 ]; 
