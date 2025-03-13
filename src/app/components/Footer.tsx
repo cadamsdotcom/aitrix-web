@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { navigation } from "../constants/navigation";
+import { isExternalUrl } from '../utils/url';
 
 export default function Footer() {
     return (
@@ -15,6 +16,10 @@ export default function Footer() {
                                 key={item.name}
                                 href={item.href}
                                 className="text-sm hover:text-blue-400 py-2 px-4 md:p-0"
+                                {...(isExternalUrl(item.href) ? {
+                                    target: "_blank",
+                                    rel: "noopener noreferrer"
+                                } : {})}
                             >
                                 {item.name}
                             </Link>

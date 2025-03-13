@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from 'react';
 import { navigation } from '../constants/navigation';
+import { isExternalUrl } from '../utils/url';
 
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -34,6 +35,10 @@ export default function Header() {
                             key={item.name}
                             href={item.href}
                             className="hover:text-blue-600"
+                            {...(isExternalUrl(item.href) ? {
+                                target: "_blank",
+                                rel: "noopener noreferrer"
+                            } : {})}
                         >
                             {item.name}
                         </Link>
@@ -56,6 +61,10 @@ export default function Header() {
                                 key={item.name}
                                 href={item.href}
                                 className="block md:inline-block py-2 md:py-0 hover:text-blue-600"
+                                {...(isExternalUrl(item.href) ? {
+                                    target: "_blank",
+                                    rel: "noopener noreferrer"
+                                } : {})}
                             >
                                 {item.name}
                             </Link>
