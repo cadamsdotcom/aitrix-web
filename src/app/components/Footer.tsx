@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                     <div>
-                        <p className="text-sm">© AI Trix Consulting Pty Ltd. All rights reserved.</p>
+                        <p className="text-sm">© AI Trix Consulting. All rights reserved.</p>
                     </div>
                     <div className="grid grid-cols-3 md:flex md:flex-row md:space-x-4">
                         {navigation.map((item) => (
