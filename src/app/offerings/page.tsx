@@ -182,7 +182,7 @@ export default function OfferingsPage() {
                 <h1 className="text-4xl font-bold mb-4">Areas of Focus & Service Offerings</h1>
                 <p className="text-xl text-gray-700 mb-8">
                     AI Trix brings AI to your business by discussing what we can deliver and helping you implement it effectively. 
-                    Here's how we can transform your business with AI.
+                    Here&apos;s how we can transform your business with AI.
                 </p>
             </section>
 

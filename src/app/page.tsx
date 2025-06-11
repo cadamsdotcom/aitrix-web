@@ -15,7 +15,7 @@ export default async function Home() {
           </h1>
         </div>
         <h2 className="text-2xl md:text-3xl font-bold text-center mx-auto">
-          AI For Lawyers: Adding AI To Your Work And Business
+          Adding AI To Your Work And Business
         </h2>
       </div>
 
@@ -68,29 +68,25 @@ export default async function Home() {
         </div>
       </div>
 
-      <div className="mx-auto flex flex-nowrap items-center relative">
-        <div className="glass rounded-lg shadow-lg p-6 pr-8 md:pr-12 space-y-4">
-          <h2 className="text-3xl font-semibold">
-            Latest Videos
-          </h2>
-          <p>The latest videos from my YouTube channel, <Link href="https://youtube.com/@cadamsdotcom" target="_blank" rel="noopener noreferrer" className="underline items-center">Chris Adams | AI For Lawyers</Link></p>
-          <p>Content coming soon.</p>
-        </div>
+      <div className="glass rounded-lg shadow-lg p-6 pr-8 md:pr-12 space-y-4">
+        <h2 className="text-3xl font-semibold">
+          Latest Videos
+        </h2>
+        <p>See the latest videos from my <Link href="https://youtube.com/@cadamsdotcom" target="_blank" rel="noopener noreferrer" className="underline items-center">YouTube channel</Link>.</p>
+        <p>Content coming soon.</p>
       </div>
 
-      <div className="mx-auto flex flex-nowrap items-center relative">
-        <div className="glass rounded-lg shadow-lg p-6 pr-8 md:pr-12 space-y-4">
-          <h2 className="text-3xl font-semibold">
-            Blog
-          </h2>
-          <p>A few of our latest blog posts:</p>
-          {topBlogPosts.map((post: BlogPost) => (
-            <div key={post.title}>
-              <h3>{post.title}</h3>
-              <p>{post.subtitle}</p>
-            </div>
-          ))}
-        </div>
+      <div className="glass rounded-lg shadow-lg p-6 pr-8 md:pr-12 space-y-4">
+        <h2 className="text-3xl font-semibold">
+          Blog
+        </h2>
+        <p>A few of our latest blog posts:</p>
+        {topBlogPosts.map((post: BlogPost) => (
+          <div key={post.title}>
+            <h3>{post.title}</h3>
+            <p>{post.subtitle}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
