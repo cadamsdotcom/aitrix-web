@@ -1,0 +1,61 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Offerings",
+      "url": "/offerings"
+    },
+    {
+      "name": "Philosophy",
+      "url": "/philosophy"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Company",
+      "menu": [
+        {
+          "text": "Home",
+          "url": "/"
+        },
+        {
+          "text": "About",
+          "url": "/about"
+        },
+        {
+          "text": "Philosophy",
+          "url": "/philosophy"
+        }
+      ]
+    },
+    {
+      "name": "Resources",
+      "menu": [
+        {
+          "text": "Blog",
+          "url": "/blog"
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "menu": [
+        {
+          "text": "Contact",
+          "url": "/contact"
+        }
+      ]
+    }
+  ]
+}

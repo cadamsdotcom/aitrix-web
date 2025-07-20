@@ -1,0 +1,39 @@
+{
+  "site": {
+    "title": "AI Trix Consulting",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.webp",
+    "logo_width": "200",
+    "logo_height": "65",
+    "logo_text": "AI Trix Logo"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blog"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Get Started",
+    "link": "/contact"
+  },
+
+  "params": {
+    "contact_form_action": "/contact",
+    "tag_manager_id": "",
+    "footer_content": [
+      "[Find Chris Adams on LinkedIn](https://linkedin.com/in/cadamsdotcom).",
+      "AI Trix builds AI-powered applications, automations, and solutions. We are committed to delivering high-quality solutions that meet the needs of our clients."
+    ],
+    "copyright": "Copyright © YYYY AI Trix Consulting. Theme based on [Bigspring by Themefisher](https://themefisher.com/)"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "",
+    "meta_description": "A SAAS template for nextjs"
+  }
+}
