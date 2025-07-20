@@ -25,6 +25,18 @@ export default function RootLayout({ children }) {
 
         {/* favicon */}
         <link rel="shortcut icon" href={config.site.favicon} />
+        <link rel="apple-touch-icon"
+              sizes="180x180"
+              href={config.site.apple_touch_icon} />
+        <link rel="icon"
+              type="image/png"
+              sizes="32x32"
+              href={config.site.favicon_32x32} />
+        <link rel="icon"
+              type="image/png"
+              sizes="16x16"
+              href={config.site.favicon_16x16} />
+        <link rel="manifest" href={config.site.manifest} />
         {/* theme meta */}
         <meta name="theme-name" content="andromeda-light-nextjs" />
 
