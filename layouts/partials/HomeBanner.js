@@ -9,12 +9,12 @@ const HomeBanner = ({ banner }) => {
         <div className="row text-center">
           {banner.image && (
             <Image
-            src={banner.image}
-            width={750}
-            height={390}
-            alt="banner image"
-            priority
-          />
+              src={banner.image}
+              width={750}
+              height={390}
+              alt="banner image"
+              priority
+            />
           )}
           <div className="mx-auto lg:col-10">
             <h1 className="font-primary font-bold mt-12">{banner.title}</h1>

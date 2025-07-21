@@ -5,7 +5,8 @@ import ItemRows from "./partials/ItemRows";
 
 function Offerings({ data }) {
   const { frontmatter } = data;
-  const { title, subtitle, about, offerings, see_also, call_to_action } = frontmatter;
+  const { title, subtitle, about, offerings, see_also, call_to_action } =
+    frontmatter;
   return (
     <>
       <HeadingItems items={about} />

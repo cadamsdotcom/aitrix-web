@@ -10,9 +10,7 @@ function Philosophy({ data }) {
         <div className="container">
           <div className="mx-auto text-center">
             {markdownify(title, "h1", "font-normal")}
-            <p className="mt-4">
-              {markdownify(subtitle, "span")}
-            </p>
+            <p className="mt-4">{markdownify(subtitle, "span")}</p>
           </div>
           <div className="section row  -mt-6">
             {items.map((item, index) => (

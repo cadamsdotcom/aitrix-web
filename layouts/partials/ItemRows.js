@@ -42,7 +42,7 @@ const ItemRows = ({ items }) => {
             {/* Content */}
             <div className="item-content mt-5 md:mt-0">
               <h2 className="font-bold leading-[40px]">{item?.title}</h2>
-              {markdownify(item?.content, 'div', 'content text-sm mb-2 mt-4')}
+              {markdownify(item?.content, "div", "content text-sm mb-2 mt-4")}
 
               {/* Call to Action */}
               <Link href={item?.cta?.link} className="btn btn-primary mt-5">

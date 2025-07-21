@@ -9,14 +9,14 @@ const Workflow = ({ workflow }) => {
         {markdownify(
           workflow.title,
           "h2",
-          "mx-auto max-w-[700px] font-bold leading-[44px]"
+          "mx-auto max-w-[700px] font-bold leading-[44px]",
         )}
         {markdownify(workflow.description, "p", "mt-3")}
         {workflow.button.enable && (
           <Link
-          className="btn btn-primary mt-4"
-          href={workflow.button.link}
-          rel={workflow.button.rel}
+            className="btn btn-primary mt-4"
+            href={workflow.button.link}
+            rel={workflow.button.rel}
           >
             {workflow.button.label}
           </Link>

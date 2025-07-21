@@ -40,15 +40,17 @@ const Footer = () => {
                 alt=""
               />
             </Link>
-            {footer_content.map((content) => 
-              markdownify(content, "p", "my-3")
-            )}
+            {footer_content.map((content) => markdownify(content, "p", "my-3"))}
             <Social source={social} className="social-icons mb-3" />
           </div>
         </div>
         {/* copyright */}
         <div className="border-t border-border py-6">
-          {markdownify(copyright.replace('YYYY', new Date().getFullYear()), "p", "text-sm text-center")}
+          {markdownify(
+            copyright.replace("YYYY", new Date().getFullYear()),
+            "p",
+            "text-sm text-center",
+          )}
         </div>
       </div>
     </footer>

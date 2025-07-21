@@ -13,7 +13,7 @@ const BlogPagination = async ({ params }) => {
   const { pagination } = config.settings;
   const posts = await getSinglePage(`content/${blog_folder}`).sort(
     (post1, post2) =>
-      new Date(post2.frontmatter.date) - new Date(post1.frontmatter.date)
+      new Date(post2.frontmatter.date) - new Date(post1.frontmatter.date),
   );
   const postIndex = await getListPage(`content/${blog_folder}/_index.md`);
   //

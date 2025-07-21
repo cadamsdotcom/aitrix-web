@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HomeFeatures = ({ feature }) => {
   if (!feature) return null;
-  
+
   return (
     <section className="section bg-theme-light">
       <div className="container">
