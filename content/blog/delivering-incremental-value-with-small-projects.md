@@ -2,7 +2,7 @@
 title: "The Power of Thinking Small: How Incremental Projects Deliver Big Results"
 description: "Discover why smaller, simpler projects often deliver better outcomes with less risk and greater speed than large-scale initiatives."
 image: "/images/blog-delivering-incremental-value.png"
-date: 2025-01-15T12:00:00Z
+date: 2025-05-15T12:00:00Z
 draft: false
 ---
 

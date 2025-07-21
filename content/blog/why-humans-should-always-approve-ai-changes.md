@@ -2,7 +2,7 @@
 title: "Why Humans Must Approve AI Actions: The Critical Line Between Reversible and Irreversible Decisions"
 description: "Explore why human oversight remains essential for AI systems, especially for irreversible decisions, and how to implement effective accountability frameworks."
 image: "/images/blog-human-in-the-loop.png"
-date: 2025-01-10T12:00:00Z
+date: 2025-05-10T12:00:00Z
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "The Three Levels of Productization: When to Build What"
 description: "Learn when to build personal scripts, team tools, or full products. A guide to choosing the right level of productization for your software needs."
 image: "/images/blog-3-levels-of-productization.png"
-date: 2025-01-12T12:00:00Z
+date: 2025-05-12T12:00:00Z
 draft: false
 ---
 
@@ -147,25 +147,28 @@ How do you decide which level is right for your project? Consider these factors:
 ### Key Questions to Ask
 
 1. **Who will use this solution?**
-    
-    - Just me → Level 1
-    - My team or close colleagues → Level 2
-    - External users or broad internal audience → Level 3
+
+   - Just me → Level 1
+   - My team or close colleagues → Level 2
+   - External users or broad internal audience → Level 3
+
 2. **How long will the solution be needed?**
-    
-    - One-time use → Level 1a
-    - Ongoing personal use → Level 1b
-    - Team use for foreseeable future → Level 2
-    - Long-term product → Level 3
+
+   - One-time use → Level 1a
+   - Ongoing personal use → Level 1b
+   - Team use for foreseeable future → Level 2
+   - Long-term product → Level 3
+
 3. **What happens if the solution fails?**
-    
-    - Minor personal inconvenience → Level 1
-    - Team disruption but containable → Level 2
-    - Major business impact → Level 3
+
+   - Minor personal inconvenience → Level 1
+   - Team disruption but containable → Level 2
+   - Major business impact → Level 3
+
 4. **Who will maintain the solution?**
-    
-    - Just me, when needed → Level 1 or 2
-    - Dedicated resources → Level 3
+
+   - Just me, when needed → Level 1 or 2
+   - Dedicated resources → Level 3
 
 ## Moving Between Levels
 

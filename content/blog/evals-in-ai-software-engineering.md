@@ -2,7 +2,7 @@
 title: "Evals in AI Software Engineering: Optimizing Performance and Cost"
 description: "Learn how evaluation frameworks are revolutionizing AI system design, enabling cost-efficient model selection and intelligent cascading architectures."
 image: "/images/blog-evals.png"
-date: 2025-01-13T12:00:00Z
+date: 2025-05-13T12:00:00Z
 draft: false
 ---
 
@@ -136,22 +136,22 @@ The implementation can be as simple as:
 def process_query(query, context=None):
     # Assess complexity
     complexity_score = assess_complexity(query)
-    
+
     # Start with the cheapest model
     current_model = get_appropriate_model(complexity_score)
-    
+
     # Generate response
     response = current_model.generate(query, context)
-    
+
     # Evaluate quality
     quality_score = evaluate_response(query, response)
-    
+
     # Escalate if needed
     if quality_score < QUALITY_THRESHOLD:
         # Try with a more powerful model
         advanced_model = get_next_tier_model(current_model)
         response = advanced_model.generate(query, context)
-    
+
     return response
 ```
 
