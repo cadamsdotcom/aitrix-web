@@ -63,7 +63,7 @@ services:
 
 # workflow
 workflow:
-  title: Excited about the AI revolution? Want to make more money? Book a free strategy call!
+  title: Excited about the AI revolution? Want to make more money? Chat to us on a free strategy call!
   image: /images/banner.svg
   description: ""
   button:
